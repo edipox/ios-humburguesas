@@ -12,6 +12,7 @@
 		0D7BB3E81DAB0E8700940165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7BB3E61DAB0E8700940165 /* Main.storyboard */; };
 		0D7BB3EA1DAB0E8700940165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7BB3E91DAB0E8700940165 /* Assets.xcassets */; };
 		0D7BB3ED1DAB0E8700940165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7BB3EB1DAB0E8700940165 /* LaunchScreen.storyboard */; };
+		0D81E7391DAB0EFB002163AC /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D81E7381DAB0EFB002163AC /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0D7BB3E91DAB0E8700940165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D7BB3EC1DAB0E8700940165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D7BB3EE1DAB0E8700940165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D81E7381DAB0EFB002163AC /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		0D7BB3E11DAB0E8700940165 /* hamburguesas */ = {
 			isa = PBXGroup;
 			children = (
+				0D81E7381DAB0EFB002163AC /* Datos.swift */,
 				0D7BB3E21DAB0E8700940165 /* AppDelegate.swift */,
 				0D7BB3E41DAB0E8700940165 /* ViewController.swift */,
 				0D7BB3E61DAB0E8700940165 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				0D7BB3E51DAB0E8700940165 /* ViewController.swift in Sources */,
 				0D7BB3E31DAB0E8700940165 /* AppDelegate.swift in Sources */,
+				0D81E7391DAB0EFB002163AC /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				0D7BB3F31DAB0E8700940165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
